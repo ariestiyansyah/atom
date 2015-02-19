@@ -4,7 +4,7 @@ set -e
 
 SPEC_FILE="$1"
 DESKTOP_FILE="$2"
-BUILD_DIRECTORY="$3"
+BUILD_DIRECTORY=/tmp/atom-build
 
 RPM_BUILD_ROOT=~/rpmbuild
 ARCH=`uname -m`
